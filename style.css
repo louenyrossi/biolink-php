@@ -43,3 +43,83 @@ body {
     border: 1px solid #ffffffaa;
     border-radius: 10px;
 }
+
+
+.area-contato {
+    margin-top: 30px;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+}
+
+.btn-msg {
+    display: inline-block;
+    background-color: #d724b6aa ;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-msg:hover {
+    background-color:#ffb7d5 ;
+    transform: scale(1.1);
+}
+
+.campo-texto {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    width: 95%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #2bff9c;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+form button:hover {
+    opacity: 0.8;
+}
+
+.btn-voltar {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 8px 20px;
+    border: 1px solid rgb(236, 68, 169);
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn-voltar:hover {
+    background-color: rgb(243, 59, 172);
+    color: black;
+    border-color: white;
+}
+
+.erro {
+    color: #ff4444;
+    background: #330000;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sucesso {
+    color: #00ff88;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+}
